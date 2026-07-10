@@ -1,0 +1,96 @@
+*{
+     font-family: "Inter", sans-serif;
+}
+.head{
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    gap: 10px 20px;
+    color: #575757;
+}
+.btn-1{
+    background-color: #1D4ED8;
+    border: 10px;
+    padding: 10px 20px;
+    border-radius: 9px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.part-2{
+    background-image: url("./B14-A01-DevConf-2026/assets/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 600px ;
+    max-width: auto;
+    text-align: center;
+    
+}
+.heading{
+    color: white;
+    
+    
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 100px 500px;
+}
+.heading-1{
+    font-size:50px;
+    font-weight: bold;
+    gap: 20px;
+}
+.btn-2{
+      background-color: #1D4ED8;
+    border: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.part-3{
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px 30px;
+   
+
+}
+.images{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: auto;
+   gap: 30px;
+   padding: 0;
+    
+}
+.images img{
+    width: 710px;
+    height: 342px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    background: fixed;
+    padding: 0;
+    border: 1px ;
+}
+
+.border{
+    text-align: left;
+   
+    border: 0.5px solid gray;
+}
+  
+.ability{
+    color: #1D4ED8;
+}
+.job{
+    color: #575757;
+}
+.price{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
