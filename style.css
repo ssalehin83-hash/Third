@@ -33,10 +33,7 @@ ul{
 }
 .heading{
     color: white;
-    
-    
-    margin-top: 30px;
-    margin-bottom: 30px;
+    text-align: center;
     padding: 100px 500px;
 }
 .heading-1{
@@ -56,7 +53,7 @@ ul{
 .part-3{
     text-align: center;
     margin-top: 30px;
-    padding: 20px 30px;
+    
    
 
 }
@@ -69,19 +66,21 @@ ul{
     
 }
 .images img{
-    width: 710px;
+    width: 100%;
     height: 342px;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
-    background: fixed;
+    display: block;
     padding: 0;
-    border: 1px ;
+    
 }
 
 .border{
     text-align: left;
-   
+    padding-left: 20px;
     border: 0.5px solid gray;
+   border-bottom-left-radius: 8px;
+   border-bottom-right-radius: 8px;
 }
   
 .ability{
@@ -90,7 +89,70 @@ ul{
 .job{
     color: #575757;
 }
+.part-4{
+    text-align: center;
+    margin-top: 100px;
+}
+.note{
+    color: #575757;
+}
 .price{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+   grid-template-columns: repeat(3,1fr);
+   gap: 30px;
+   text-align: left;
+   padding: 10px 20px;
+}
+.one{
+    background-color: white;
+    border: 0.5px solid #575757 ;
+    border-radius: 10px;
+    padding: 30px;;
+} 
+.price ul{
+    display: inline; 
+}
+.price li{
+    list-style: disc;
+}
+.one button{
+    border: 1px solid #1D4ED8;
+    background-color: white;
+    color:#1D4ED8;
+    margin-top: 30px;
+    border-radius: 12px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}
+.two{
+    background-color: #0d1b2aFF;
+    color: white;
+    border-radius: 12px;
+    padding: 40px;
+}
+.two button{
+    border: 1px solid #1D4ED8;
+    background-color: #1D4ED8;
+    color:white;
+    margin-top: 30px;
+    border-radius: 12px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+}
+.three{
+    background-color:#f8f9fbFF;;
+    
+    border-radius: 12px;
+    padding: 40px;
+}
+.three button{
+    border: 1px solid black;
+    
+    margin-top: 30px;
+    border-radius: 12px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
 }
