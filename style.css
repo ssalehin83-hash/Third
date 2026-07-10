@@ -99,15 +99,18 @@ ul{
 .price{
     display: grid;
    grid-template-columns: repeat(3,1fr);
-   gap: 30px;
+   gap: 1px 20px;
+   padding: 5px 150px;
    text-align: left;
-   padding: 10px 20px;
+   
 }
+
 .one{
     background-color: white;
     border: 0.5px solid #575757 ;
     border-radius: 10px;
-    padding: 30px;;
+    padding: 30px;
+     width: 300px;
 } 
 .price ul{
     display: inline; 
@@ -121,7 +124,7 @@ ul{
     color:#1D4ED8;
     margin-top: 30px;
     border-radius: 12px;
-    width: 200px;
+    width: 300px;
     height: 50px;
     cursor: pointer;
 }
@@ -130,6 +133,7 @@ ul{
     color: white;
     border-radius: 12px;
     padding: 40px;
+    width: 300px;
 }
 .two button{
     border: 1px solid #1D4ED8;
@@ -137,24 +141,38 @@ ul{
     color:white;
     margin-top: 30px;
     border-radius: 12px;
-    width: 200px;
+    width: 300px;
     height: 50px;
     cursor: pointer;
 }
 .three{
     background-color:#f8f9fbFF;;
-    
+    width: 300px;
     border-radius: 12px;
-    padding: 40px;
+    padding: 10px 60px;
 }
 .three button{
     border: 1px solid black;
     
     margin-top: 30px;
     border-radius: 12px;
-    width: 200px;
+    width: 300px;
     height: 50px;
     cursor: pointer;
+}
+.register{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.register button{
+    background-color: #1D4ED8;
+    border-color: #1D4ED8;
+    padding: 13px 40px;
+    border-radius: 9px;
+    color: white;
+    cursor: pointer;
+    margin-top: 10px;
 }
 footer{
     background-color: #0d1b2aFF;
