@@ -179,6 +179,12 @@ footer{
     color: #575757;
     
 }
+
+.links img{
+    
+   max-width: 25px;
+    height: 25px;
+}
 .foot{
     display: flex;
     justify-content: space-between;
